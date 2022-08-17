@@ -11,4 +11,6 @@ Created a node.js driven readme generator that works from the command line. The 
 * Added readme sections as shown in the "Professional README Guide."
 * Screen recorded demonstration of app functions.
 
+## Video of application functionality: (https://watch.screencastify.com/v/qYx9ZMpxtDGaXOzGsEwe)
+
 ![screenshot of readme file that has been generated using the command line readme generator](/Develop/readme-generator-screenshot.png)
