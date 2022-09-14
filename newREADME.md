@@ -17,7 +17,7 @@ This is a very detailed description of what my app does. It’s really cool and 
 
 
 
-![Description of image for accessibility or if image doesn’t load for some reason](/Develop/demo-image.png)
+![Description of image for accessibility or if image doesn’t load for some reason](/images/demo-image.png)
 
 ## Installation
 
