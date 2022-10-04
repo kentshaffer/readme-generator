@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const createReadme = ({ projectTitle, subtitle, description, area1, area2, area3, area4, area5, appLink, screenshot, screenshotDescription, installation, usage, credits, contDev, tests, license }) =>
+const createReadme = ({ projectTitle, subtitle, description, area1, area2, area3, area4, area5, appLink, screenshot, screenshotDescription, installation, usage, credits, contDev, tests, email, github, license }) =>
 
 `
 # ${projectTitle}
@@ -9,6 +9,26 @@ const createReadme = ({ projectTitle, subtitle, description, area1, area2, area3
 ## ${subtitle}
 
 ${description}
+
+## Table of Contents:
+
+[Areas Covered](#areas-covered)
+
+[Deployed Application](#deployed-application)
+
+[Screenshots](#screenshots)
+
+[Installation](#installation)
+
+[Usage](#usage)
+
+[Credits](#credits)
+
+[Continuing Development](#continuing-development)
+
+[Tests](#tests)
+
+[Contact Me](#contact-me)
 
 ## Areas Covered:
 
@@ -18,31 +38,41 @@ ${description}
 * ${area4}
 * ${area5}
 
-## Deployed application: (${appLink})
+## Deployed Application: 
 
+(${appLink})
 
+## Screenshots
 
 ![${screenshotDescription}](${screenshot})
 
-## Installation
+## Installation:
 
 ${installation}
 
-## Usage
+## Usage:
 
 ${usage}
 
-## Credits
+## Credits:
 
 ${credits}
 
-## Continuing Development
+## Continuing Development:
 
 ${contDev}
 
-## Tests
+## Tests:
 
 ${tests}
+
+## Contact Me:
+
+Have any questions? Feel free to reach out via email at: ${email}
+
+or 
+
+Check out more of my projects https://github.com/${github}
 
 ---
 
@@ -132,6 +162,16 @@ inquirer
       type: 'input',
       message: 'Show code tests',
       name: 'tests',
+    },
+    {
+      type: 'input',
+      message: 'Email address for contact info',
+      name: 'email',
+    },
+    {
+      type: 'input',
+      message: 'GitHub Username',
+      name: 'github',
     },
     {
       type: 'list',

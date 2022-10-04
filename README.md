@@ -16,7 +16,7 @@ Created a node.js driven application that generates a readme.md file, operated f
 ---
 
 ## Installation Instructions:
-* Open intergrated terminal in VS Code
+* Open integrated terminal in VS Code
 * Run npm install to install all dependencies
 * Run node index.js to start application 
 
@@ -31,7 +31,7 @@ Created a node.js driven application that generates a readme.md file, operated f
 
 ## About the author:
 
-My name is Kent SHaffer and I am a student in UCSD's full stack web development bootcamp. Prior to starting the program I had zero code experience, so it feels I've been drinking in new information through a fire hose, but I have been loving learning, and I'm excited about all the possibilities that live within the scope of the technologies I have been learning.
+My name is Kent Shaffer and I am a student in UCSD's full stack web development bootcamp. Prior to starting the program I had zero code experience, so it feels I've been drinking in new information through a fire hose, but I have been loving learning, and I'm excited about all the possibilities that live within the scope of the technologies I have been learning.
 
 If you have any questions, or would like to get in contact, I can be reached at kentshaff@gmail.com 
 
@@ -46,15 +46,11 @@ If you have any questions, or would like to get in contact, I can be reached at 
 ## Screenshots and Gifs of app: 
 
 
-![screenshot of readme file that has been generated using the command line readme generator](/images/readme_screenshot.png)
-
----
-
 ![screenshot of heading of readme file that has been generated using the command line](/images/readme_generator_heading_screenshot.png)
 
 ---
 
-![screenshot license badge that has been generated using the command line readme generator](/images/readme_generator_license_screenshot.png)
+![screenshot of contact info and license badge that has been generated using the command line readme generator](/images/license_contact_screenshot.png)
 
 ---
 
@@ -67,4 +63,3 @@ If you have any questions, or would like to get in contact, I can be reached at 
 ---
 
 ![gif demo of app operation for choosing project license information](/images/readme_generator_demo_3.gif)
-
