@@ -6,6 +6,22 @@ Created a node.js driven application that generates a readme.md file, operated f
 
 ---
 
+## Table of Contents:
+
+[Areas Covered](#areas-covered)
+
+[Installation Instructions](#installation-instructions)
+
+[Tech Stack](#tech-stack)
+
+[About the author](#about-the-author)
+
+[Video of application functionality](#video-of-application-functionality)
+
+[Screenshots and Gifs of app](#screenshots-and-gifs-of-app)
+
+---
+
 ## Areas Covered:
 * Dependencies installed to run Node and Inquirer.
 * Node modules included in gitignore file so that the directory is not tracked or uploaded to GitHub.
@@ -39,7 +55,7 @@ If you have any questions, or would like to get in contact, I can be reached at 
 
 ## Video of application functionality: 
 
-(https://watch.screencastify.com/v/5V9jKSgQcssiE1AuNUBR)
+(https://watch.screencastify.com/v/T12ivU6w7XIw3Ewxp72S)
 
 ---
 
